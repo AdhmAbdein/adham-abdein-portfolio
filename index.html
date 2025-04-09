@@ -1,0 +1,1924 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">ADHAM ABDEIN</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item ">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/t.png);">
+	          	 <div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Hello!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>ADHAM ABDEIN</span></h1>
+
+						<!-- Element to contain animated typing -->
+						<span id="typing-animation"></span>
+
+						<!--<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						/*const typingTexts = [
+						'Engineer  ',
+						'YouTuber  ',
+						'Teacher   ',
+						];*/
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+
+						</script>-->
+
+						<!--<br>
+						<br>-->
+			            <h2>A DevOps & Cloud Engineer</h2>
+						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+						<!-- <br> -->
+			            <p><a href="https://www.linkedin.com/in/adham-abdein-b758502b7/" class="btn btn-primary py-3 px-4">LINKED IN</a> 
+							<a href="https://github.com/AdhmAbdein?tab=repositories" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-img">
+										<img src="images/aa.png" class="img-fluid rounded b-shadow-a" alt="">
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<p><span class="title-s">Name: </span> <span>Adham Abdein</span></p>
+										<p><span class="title-s">Job Role: </span> <span>DevOps & Cloud Engineer</span></p>
+										<p><span class="title-s">Experience: </span> <span>---</span></p>
+										<p><span class="title-s">Address: </span> <span>Śląsk , Poland</span></p>
+									  </div>
+									</div>
+								  </div>
+
+								<div class="skill-mf">
+									<p class="title-s">Skills</p>
+									<span>Containerization & Orchestration : KUbernates , Docker</span> <!--<span class="pull-right">95%</span>-->
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="95" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Configuration Management & IAC: Ansible, Terraform</span> <!--<span class="pull-right">85%</span>-->
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div> 
+									
+									<span>CI/CD & Version control: Jenkins, Git, GitHub</span><!-- <span class="pull-right">90%</span>-->
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Operating Systems & Scripting: Linux (Red Hat), Bash </span> <!--<span class="pull-right">85%</span>-->
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>Cloud Platforms: AWS</span> <!--<span class="pull-right">85%</span>-->
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>Monitoring & Logging: Prometheus, Grafana</span> <!--<span class="pull-right">85%</span>-->
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+								
+									<span>Database: MS SQL Server</span> <!--<span class="pull-right">85%</span>-->
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>Networking: Basics of Networking - Reverse proxy & Load Balancer: Nginx</span> <!--<span class="pull-right">85%</span>-->
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									<!--<span>Machine Learning</span> <span class="pull-right">80%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="80" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>-->
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>I have a bachelor's degree in computers and information (medical informatics department), and I am now a master's student in the field of data science at the Polish University (Silesian University of Technology). I can use DevOps tools to deploy projects efficiently, ensuring scalability, reliability, and high performance. By leveraging containerization (Docker), orchestration (Kubernetes), and CI/CD pipelines (Jenkins), I streamline deployment processes while maintaining robust infrastructure. Additionally, I apply cloud platforms (AWS) and monitoring tools (Prometheus, Grafana) to optimize resource usage and ensure seamless scaling. My goal is to build maintainable, secure, and scalable systems that meet both current and future demands.</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>DevOps & Cloud Engineer</span></li>
+									<!--<li class="d-flex"><span>Profile:</span> <span>Data Science &amp; Analytics</span></li>-->
+									<!--<li class="d-flex"><span>Domain:</span> <span>Retail, Ecommerce, BFSI &amp; Digital Marketing</span></li>-->
+									<li class="d-flex"><span>Education:</span> <span>Bachelor of computers and information</span></li>
+									<li class="d-flex"><span>Language:</span> <span> Arabic , English</span></li>
+									<!--<li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI</span></li>-->
+									<!--<li class="d-flex"><span>Other Skills:</span> <span>Cloud, PySpark, Excel, Git, JIRA, Google Analytics &amp; SEO</span></li>-->
+									<!--<li class="d-flex"><span>Interest:</span> <span>Traveling, Travel Photography, Teaching</span></li>-->
+									
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="80">0</span> <span>+</span>
+									<span>&nbsp; Projects completed</span>
+								</p>
+								<p><a href="https://www.linkedin.com/in/adham-abdein-b758502b7/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <!--<div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Resume</h1>
+            <h2 class="mb-4">Resume</h2>
+            <p>Seasoned Senior Data Analyst with 5+ years of experience driving business strategies through data-driven insights. Proven expertise in data science, statistical analysis, machine learning algorithms and project management.</p>
+          </div>-->
+        </div>
+
+		<div class="row">
+			<h1 class="big-4">Experience</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+			<div class="col-md-6">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">Graduation project	-	Brain Tumor (Classification)	2023</span>
+					<h2>---</h2>
+					<span class="position">•	Developed a Brain Tumor detection utilizing Convolutional Neural Network (CNN) algorithms.<br>
+						•	Successfully implemented image classification techniques to identify and categorize brain tumors from MRI scans.<br>
+						•	Collaborated with team to collect and preprocess medical image data, achieving a dataset of [7023 MRI images].<br>
+						•	Achieved an accuracy rate of [97%] in tumor classification, contributing to early and accurate diagnosis.<br>
+						•	Deployed the trained model on a web platform using Django, allowing for user-friendly access to tumor classification results through a web interface.
+						</span>
+					<!--<p class="mt-4">Merkle, a leading CXM and media company with over 10K+ professionals globally. It's a part of Dentsu International. -->
+						<!--<ul>
+							<li>Analysed ad campaigns, clickstream, and customer surveys data, identified an increasing demand and launched a strategic product line.</li>
+							<li>Developed time series forecasting models to predict sales and optimize marketing budgets, got model performance of 92%.</li>
+							<li>Designed and executed A/B tests, performed rigorous statistical analysis. Led to 20% MoM increase in the conversion rate.</li>
+						</ul>-->
+					</p>
+				</div>
+
+			</div>
+
+				<!--<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2021-Present</span>
+						<h2>Senior Data Analyst</h2>
+						<span class="position">Merkle</span>
+						<p class="mt-4">Merkle, a leading CXM and media company with over 10K+ professionals globally. It's a part of Dentsu International. 
+							<ul>
+								<li>Analysed ad campaigns, clickstream, and customer surveys data, identified an increasing demand and launched a strategic product line.</li>
+								<li>Developed time series forecasting models to predict sales and optimize marketing budgets, got model performance of 92%.</li>
+								<li>Designed and executed A/B tests, performed rigorous statistical analysis. Led to 20% MoM increase in the conversion rate.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2018-2021</span>
+						<h2>Senior Data Analyst</h2>
+						<span class="position">iQuanti</span>
+						<p class="mt-4">iQuanti is a data-driven digital marketing analytics and solutions company, helps top 100 global brands. 
+							<ul>
+								<li>Performed in-depth market research and analysis to create online pages. Resulted in ~100% website growth and 30% increase in conversion rate YoY.</li>
+								<li>Delivered multiple training and mentorship sessions on analytical tools like SQL, MS Excel, Power BI, Tableau and Python.</li>
+								<li>Performed migration and enhancements for merchandising dashboard, involved data integration and its feature improvement.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>-->
+			</div>
+
+		<br>
+		<br>
+
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			<div class="row">
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2018-2023</span>
+    					<h2>Bachelor of Computers and Infomation (Medical informatics department)</h2>
+    					<span class="position">Beni Suef University (EGYPT)</span>
+    					<p class="mt-4">Excellent grade.</p>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2024-....</span>
+    					<h2>Master student in Data science</h2>
+    					<span class="position">Silesian University of Technology (POLAND)</span>
+    					<p class="mt-4">......</p>
+    				</div>
+				</div>
+    		</div>
+
+    		<!--<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    			</div>
+    		</div>-->
+    	</div>
+    </section>
+
+   
+
+    <section class="ftco-section" id="project-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Projects</h2>
+            <p>Below are the sample Devops projects on K8S, DOCKER, ANSIBLE, TERRAFORM, JENKINS, PROMETHEUS & BASH SCRIPTING etc.....</p>
+          </div>
+		  
+        </div>
+		<p style="text-align: center; font-size: 24px; font-weight: bold;">The Top projects:-</p>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/AdhmAbdein/spring-boot-hotel-Docker-k8s-jenkins-git-github-.git" class="block-20 zoom-effect" style="background-image: url('images/hotel.png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/AdhmAbdein/spring-boot-hotel-Docker-k8s-jenkins-git-github-.git">Spring boot hotel system (Docker & k8s & jenkins & git & github)</a></h3>
+                <p>Deploy spring boot app using K8s</p>
+              </div>
+            </div>
+          </div>
+		  <div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/spring-boot-crud-Docker-k8s-jenkins-git-github-.git" class="block-20 zoom-effect" style="background-image: url('images/crud.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/spring-boot-crud-Docker-k8s-jenkins-git-github-.git">Spring boot crud system (Docker & k8s & jenkins & git & github)</a></h3>
+			  <p>Deploy spring boot app using K8s</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/spring-boot-bank-Docker-k8s-jenkins-git-github-.git" class="block-20 zoom-effect" style="background-image: url('images/bank.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/spring-boot-bank-Docker-k8s-jenkins-git-github-.git">Spring boot bank system (Docker & k8s & jenkins & git & github)</a></h3>
+			  <p>Deploy spring boot app using K8s</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-js-project-Docker-k8s-jenkins-git-github-.git" class="block-20 zoom-effect" style="background-image: url('images/nodejs.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-js-project-Docker-k8s-jenkins-git-github-.git">Node JS (Docker & k8s & jenkins & git & github)</a></h3>
+			  <p>Deploy Node JS app using K8s</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Simple-Java-project-Ansible-linux-jenkins-git-github-.git" class="block-20 zoom-effect" style="background-image: url('images/java.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Simple-Java-project-Ansible-linux-jenkins-git-github-.git">Java app (Linux & Ansible & jenkins & git & github)</a></h3>
+			  <p>Deploy Java app on linux vm</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Flask-project-Docker-jenkins-git-github-.git" class="block-20 zoom-effect" style="background-image: url('images/flask.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Flask-project-Docker-jenkins-git-github-.git">Flask app (Docker & jenkins & git & github)</a></h3>
+			  <p>Deploy Flask app using Docker</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Flask-3-tier-simple-form-project-Docker-k8s-jenkins-git-github-.git" class="block-20 zoom-effect" style="background-image: url('images/flask3.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Flask-3-tier-simple-form-project-Docker-k8s-jenkins-git-github-.git">Flask form app (k8s & Docker & jenkins & git & github)</a></h3>
+			  <p>Deploy Flask form app using k8s</p>
+			</div>
+		  </div>
+		</div>
+
+		<div class="col-12 text-center py-4">  <!-- `py-4` adds vertical padding -->
+			<p style="font-size: 24px; font-weight: bold;">Other projects for each tool:-</p>
+		  </div>
+
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Canary-K8s.git" class="block-20 zoom-effect" style="background-image: url('images/canary.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Canary-K8s.git">Canary deployment (K8s & linux & git & github)</a></h3>
+			  <p>Deploy app using canary deployment k8s</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Cron-job---date.git" class="block-20 zoom-effect" style="background-image: url('images/Cron job Date.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Cron-job---date.git">Cron job Date (k8s & linux & git & github)</a></h3>
+			  <p>Create Cron JOb (k8s)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Deploy-nginx.git" class="block-20 zoom-effect" style="background-image: url('images/ng.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Deploy-nginx.git">Deploy Nginx pod (k8s & linux & git & github)</a></h3>
+			  <p>Deploy Nginx pod using K8s </p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Deploy-pods-with-anti-affinity-node-selector.git" class="block-20 zoom-effect" style="background-image: url('images/anti.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Deploy-pods-with-anti-affinity-node-selector.git">Deploy(pods) with anti affinity node selector (k8s & linux & git & github)</a></h3>
+			  <p>Anti affinity (Node selection)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Configmap-env-var.git" class="block-20 zoom-effect" style="background-image: url('images/env.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Configmap-env-var.git">Configmap for env var(k8s & linux & git & github)</a></h3>
+			  <p>Configmap for env var (k8s)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Horizental-auto-scaling---deploy.git" class="block-20 zoom-effect" style="background-image: url('images/scale.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Horizental-auto-scaling---deploy.git">Horizental auto scaling (k8s & linux & git & github)</a></h3>
+			  <p>Deploy using Horizental auto scaling (k8s)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/ingress.git" class="block-20 zoom-effect" style="background-image: url('images/ingress.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/ingress.git">Ingress (k8s & linux & git & github)</a></h3>
+			  <p>Ingress(k8s)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Job---date.git" class="block-20 zoom-effect" style="background-image: url('images/job.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Job---date.git">Run k8s Job(k8s & linux & git & github)</a></h3>
+			  <p>Run k8s Job (k8s)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Pod-with-affinity-node-selector.git" class="block-20 zoom-effect" style="background-image: url('images/aff.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Pod-with-affinity-node-selector.git">Pod with affinity node selector(k8s & linux & git & github)</a></h3>
+			  <p>Node selection (k8s)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Pod-with-multi-container.git" class="block-20 zoom-effect" style="background-image: url('images/multi.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Pod-with-multi-container.git">Pod with multi container(k8s & linux & git & github)</a></h3>
+			  <p>Run two container in k8s</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Pod-with-node-selector.git" class="block-20 zoom-effect" style="background-image: url('images/pnode.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Pod-with-node-selector.git">Pod with node selector(k8s & linux & git & github)</a></h3>
+			  <p>Node selection (k8s)</p>
+			</div>
+		  </div>
+		</div>
+		  <div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Pod-with-pv-pvc.git" class="block-20 zoom-effect" style="background-image: url('images/pvpvc.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Pod-with-pv-pvc.git">Pod with pv-pvc(k8s & linux & git & github)</a></h3>
+			  <p>Pod storage (k8s)</p>
+			</div>
+		  </div>
+		</div>
+		  <div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Resource-quota-for-namespace.git" class="block-20 zoom-effect" style="background-image: url('images/res.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Resource-quota-for-namespace.git">Resource quota for namespace(k8s & linux & git & github)</a></h3>
+			  <p>Pod resources limitation (k8s)</p>
+			</div>
+		  </div>
+		</div>
+		  <div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Rollout-deployment.git" class="block-20 zoom-effect" style="background-image: url('images/roll.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Rollout-deployment.git">Rollout(k8s & linux & git & github)</a></h3>
+			  <p>Rollout between 2 version (k8s)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Static-website.git" class="block-20 zoom-effect" style="background-image: url('images/stat.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Static-website.git">Static website nginx (k8s & linux & git & github)</a></h3>
+			  <p>Deploy static website (k8s)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Container-health.git" class="block-20 zoom-effect" style="background-image: url('images/helth.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Container-health.git">Container health (Docker & linux & git & github)</a></h3>
+			  <p>Check container health (Docker)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Container-logs.git" class="block-20 zoom-effect" style="background-image: url('images/log.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Container-logs.git">Container logs (Docker & linux & git & github)</a></h3>
+			  <p>Check container logs (Docker)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Container-backup.git" class="block-20 zoom-effect" style="background-image: url('images/bkp.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Container-backup.git">Container Backup (Docker & linux & git & github)</a></h3>
+			  <p>Take Backup of container (Docker)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Frontend-html-Backend-flask-compose-.git" class="block-20 zoom-effect" style="background-image: url('images/fb.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Frontend-html-Backend-flask-compose-.git">Frontend-html & Backend-flask (compose)(Docker & linux & git & github)</a></h3>
+			  <p>Deploy website (Docker)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Limited-container-resources.git" class="block-20 zoom-effect" style="background-image: url('images/reo.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Limited-container-resources.git">Limited container resources (Docker & linux & git & github)</a></h3>
+			  <p>Specify limited resources for container (Docker)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Migrate-image-from-host-to-another.git" class="block-20 zoom-effect" style="background-image: url('images/mig.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Migrate-image-from-host-to-another.git">Migrate image from host to another (Docker & linux & git & github)</a></h3>
+			  <p>Appling Migration (Docker)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Multi-container-compose-.git" class="block-20 zoom-effect" style="background-image: url('images/mc.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Multi-container-compose-.git">Multi container (compose) (Docker & linux & git & github)</a></h3>
+			  <p>Multi container using docker compose (Docker)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Multi-network.git" class="block-20 zoom-effect" style="background-image: url('images/mn.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Multi-network.git">Multi Network (Docker & linux & git & github)</a></h3>
+			  <p>Connecting container to 2 bridge (Docker)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Multi-stage-go--alpine-.git" class="block-20 zoom-effect" style="background-image: url('images/mss.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Multi-stage-go--alpine-.git">Multi stage (go - alpine) (Docker & linux & git & github)</a></h3>
+			  <p>Multiple FROM statements in a single Dockerfile to create smaller and more efficient final images (Docker)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Multi-Tier-App.git" class="block-20 zoom-effect" style="background-image: url('images/mt.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Multi-Tier-App.git">Multi-Tier App (Docker & linux & git & github)</a></h3>
+			  <p>Multi-Tier App (Docker)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Mysql-backup.git" class="block-20 zoom-effect" style="background-image: url('images/mybkp.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Mysql-backup.git">Mysql backup (Docker & linux & git & github)</a></h3>
+			  <p>Taking Backup for database container (Docker)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Nginx-static-website.git" class="block-20 zoom-effect" style="background-image: url('images/ngx.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Nginx-static-website.git">Nginx static website (Docker & linux & git & github)</a></h3>
+			  <p>Dockerize Nginx static website (Docker)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Replica-nginx-compose-.git" class="block-20 zoom-effect" style="background-image: url('images/repl.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Replica-nginx-compose-.git">Replica nginx (compose) (Docker & linux & git & github)</a></h3>
+			  <p>Taking Replica for nginx container (Docker)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Mysql-backup.git" class="block-20 zoom-effect" style="background-image: url('images/src.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Mysql-backup.git">Run script in container (Docker & linux & git & github)</a></h3>
+			  <p>Run Bash script code in container (Docker)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Postgresql-container.git" class="block-20 zoom-effect" style="background-image: url('images/post.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Postgresql-container.git">Postgresql container (Docker & linux & git & github)</a></h3>
+			  <p>Postgresql container (Docker)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Redis-container.git" class="block-20 zoom-effect" style="background-image: url('images/red.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Redis-container.git">Redis container (Docker & linux & git & github)</a></h3>
+			  <p>Redis container (Docker)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/volume-inheritance.git" class="block-20 zoom-effect" style="background-image: url('images/inh.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/volume-inheritance.git">Volume inheritance (Docker & linux & git & github)</a></h3>
+			  <p>inherit volume from another container (Docker)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Apply-NTP-protocol.git" class="block-20 zoom-effect" style="background-image: url('images/nttp.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Apply-NTP-protocol.git">Apply NTP protocol (Ansible & linux & git & github)</a></h3>
+			  <p>Apply NTP protocol on managed node server (Ansible)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Archive-fetch-logs-backup.git" class="block-20 zoom-effect" style="background-image: url('images/arch.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Archive-fetch-logs-backup.git">Archive & fetch logs backup (Ansible & linux & git & github)</a></h3>
+			  <p>Archive & fetch logs backup from managed nodes (Ansible)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Auto-backup.git" class="block-20 zoom-effect" style="background-image: url('images/abkp.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Auto-backup.git">Auto backup (Ansible & linux & git & github)</a></h3>
+			  <p>Auto backup from managed nodes (Ansible)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Auto-server-setup.git" class="block-20 zoom-effect" style="background-image: url('images/set.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Auto-server-setup.git">Auto server setup (Ansible & linux & git & github)</a></h3>
+			  <p>Setup the server automatic for managed nodes (Ansible)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Create-docker-container.git" class="block-20 zoom-effect" style="background-image: url('images/cont.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Create-docker-container.git">Create docker container (Ansible & linux & git & github)</a></h3>
+			  <p>Create docker container on managed nodes (Ansible)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Disk-health-check.git" class="block-20 zoom-effect" style="background-image: url('images/dh.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Disk-health-check.git">Disk health check (Ansible & linux & git & github)</a></h3>
+			  <p>check of disk health of managed nodes (Ansible)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Disk-partitioning.git" class="block-20 zoom-effect" style="background-image: url('images/dp.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Disk-partitioning.git">Disk partitioning (Ansible & linux & git & github)</a></h3>
+			  <p>partitioning Disk of managed nodes (Ansible)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Disk-space-report.git" class="block-20 zoom-effect" style="background-image: url('images/ds.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Disk-space-report.git">Disk space report(Ansible & linux & git & github)</a></h3>
+			  <p>Report of Disk space of managed nodes (Ansible)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Firewall-rules.git" class="block-20 zoom-effect" style="background-image: url('images/fir.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Firewall-rules.git">Firewall rules (Ansible & linux & git & github)</a></h3>
+			  <p>Enable Firewall rules of managed nodes (Ansible)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Give-permission-to-file.git" class="block-20 zoom-effect" style="background-image: url('images/per.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Give-permission-to-file.git">Give permission to file (Ansible & linux & git & github)</a></h3>
+			  <p>Give permission to file in managed nodes (Ansible)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Logs-rotation-logrotate-.git" class="block-20 zoom-effect" style="background-image: url('images/lo.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Logs-rotation-logrotate-.git">Logs rotation(logrotate) (Ansible & linux & git & github)</a></h3>
+			  <p>Appling logs rotation for managed nodes (Ansible)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Mysql-backup-Ansible.git" class="block-20 zoom-effect" style="background-image: url('images/amy.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Mysql-backup-Ansible.git">Mysql backup (Ansible & linux & git & github)</a></h3>
+			  <p>Taking backeup of database on managed nodes (Ansible)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Remove-package.git" class="block-20 zoom-effect" style="background-image: url('images/pack.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Remove-package.git">Remove package (Ansible & linux & git & github)</a></h3>
+			  <p>Remove packages from managed nodes (Ansible)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Restart-based-on-load-nginx-.git" class="block-20 zoom-effect" style="background-image: url('images/rest.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Restart-based-on-load-nginx-.git">Restart based on load (nginx) (Ansible & linux & git & github)</a></h3>
+			  <p>Restart nginx service when load increase on managed nodes (Ansible)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/System-health-monitoring-alert.git" class="block-20 zoom-effect" style="background-image: url('images/mon.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/System-health-monitoring-alert.git">System health monitoring & alert (Ansible & linux & git & github)</a></h3>
+			  <p>System health monitoring & alert on managed nodes (Ansible)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/User-group-creation.git" class="block-20 zoom-effect" style="background-image: url('images/user.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/User-group-creation.git">User & group creation (Ansible & linux & git & github)</a></h3>
+			  <p>Create User & group on managed nodes (Ansible)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/User-Account-Expiration-date.git" class="block-20 zoom-effect" style="background-image: url('images/exp.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/User-Account-Expiration-date.git">User Account Expiration date (Ansible & linux & git & github)</a></h3>
+			  <p>Add Expiration date for user on managed nodes (Ansible)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Account-expiration-check.git" class="block-20 zoom-effect" style="background-image: url('images/bexp.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Account-expiration-check.git">Account expiration check (Bash script & linux & git & github)</a></h3>
+			  <p>Check Account expiration (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Automated-Backup.git" class="block-20 zoom-effect" style="background-image: url('images/bbkp.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Automated-Backup.git">Automated Backup (Bash script & linux & git & github)</a></h3>
+			  <p>Automated Backup (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Card-network-interface-exist.git" class="block-20 zoom-effect" style="background-image: url('images/nic.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Card-network-interface-exist.git">Card network interface exist (Bash script & linux & git & github)</a></h3>
+			  <p>Check Card network interface existing (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Card-network-interface-status.git" class="block-20 zoom-effect" style="background-image: url('images/nics.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Card-network-interface-status.git">Card network interface status(Bash script & linux & git & github)</a></h3>
+			  <p>Check Card network interface status (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Check-change-Maximum-number-of-days-between-password-change.git" class="block-20 zoom-effect" style="background-image: url('images/max.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Check-change-Maximum-number-of-days-between-password-change.git">Check & change-Maximum-number-of-days-between-password-change(Bash script & linux & git & github)</a></h3>
+			  <p>Check & change-Maximum-number-of-days-between-password-change (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Dirc-permission-checker.git" class="block-20 zoom-effect" style="background-image: url('images/dir.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Dirc-permission-checker.git">Dirc permission checker (Bash script & linux & git & github)</a></h3>
+			  <p>Check Directory permisssion (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Dirc-permission-checker.git" class="block-20 zoom-effect" style="background-image: url('images/thr.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Dirc-permission-checker.git">Disk check threshold (Bash script & linux & git & github)</a></h3>
+			  <p>Check disk threshold (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Firewall-ports-Check.git" class="block-20 zoom-effect" style="background-image: url('images/fr.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Firewall-ports-Check.git">Firewall ports Check (Bash script & linux & git & github)</a></h3>
+			  <p>Check Firewall ports of VM (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Kernel-update.git" class="block-20 zoom-effect" style="background-image: url('images/ker.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Kernel-update.git">Kernel update (Bash script & linux & git & github)</a></h3>
+			  <p>Kernel update (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Last-user-creation.git" class="block-20 zoom-effect" style="background-image: url('images/last.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Last-user-creation.git">Last user creation(Bash script & linux & git & github)</a></h3>
+			  <p>Check last user creation (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Mount-Point-check.git" class="block-20 zoom-effect" style="background-image: url('images/mnt.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Mount-Point-check.git">Mount Point check (Bash script & linux & git & github)</a></h3>
+			  <p>Check Mount Point (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Network-bandwidth-monitoring.git" class="block-20 zoom-effect" style="background-image: url('images/ban.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Network-bandwidth-monitoring.git">Network bandwidth monitoring (Bash script & linux & git & github)</a></h3>
+			  <p>Network bandwidth monitoring (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Network-latency-check.git" class="block-20 zoom-effect" style="background-image: url('images/lat.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Network-latency-check.git">Network latency check (Bash script & linux & git & github)</a></h3>
+			  <p>Check Network latency (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Password-Expiry-Notifier.git" class="block-20 zoom-effect" style="background-image: url('images/not.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Password-Expiry-Notifier.git">Password Expiry Notifier (Bash script & linux & git & github)</a></h3>
+			  <p>Notifier for Password Expiration (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Permission-check.git" class="block-20 zoom-effect" style="background-image: url('images/chper.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Permission-check.git">permission check (Bash script & linux & git & github)</a></h3>
+			  <p>Check permission (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Port-scanner.git" class="block-20 zoom-effect" style="background-image: url('images/po.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Port-scanner.git">Port scanner check (Bash script & linux & git & github)</a></h3>
+			  <p>Check port scanner (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Process-running-check.git" class="block-20 zoom-effect" style="background-image: url('images/run.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Process-running-check.git">Process running check (Bash script & linux & git & github)</a></h3>
+			  <p>Check running process (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Security-patching.git" class="block-20 zoom-effect" style="background-image: url('images/pat.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Security-patching.git">Security patching (Bash script & linux & git & github)</a></h3>
+			  <p>Security patching (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Software-Inventory-Report.git" class="block-20 zoom-effect" style="background-image: url('images/rep.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Software-Inventory-Report.git">Software Inventory Report (Bash script & linux & git & github)</a></h3>
+			  <p>Software Inventory Report in VM (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/System-Health-Check-Report.git" class="block-20 zoom-effect" style="background-image: url('images/sh.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/System-Health-Check-Report.git">System Health Check Report (Bash script & linux & git & github)</a></h3>
+			  <p>System Health Check Report (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/User-creation.git" class="block-20 zoom-effect" style="background-image: url('images/us.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/User-creation.git">User creation (Bash script & linux & git & github)</a></h3>
+			  <p>Create user (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/User-ssh-attempt-count.git" class="block-20 zoom-effect" style="background-image: url('images/ssh.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/User-ssh-attempt-count.git">User ssh attempt count (Bash script & linux & git & github)</a></h3>
+			  <p>User ssh attempt count (Bash script)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-context-switch-rate.git" class="block-20 zoom-effect" style="background-image: url('images/cx.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-context-switch-rate.git">Node context switch rate (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node context switch rate (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-CPU-IO-Wait-Time.git" class="block-20 zoom-effect" style="background-image: url('images/ciot.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-CPU-IO-Wait-Time.git">Node CPU IO Wait Time (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node CPU IO Wait Time (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-CPU-steal-time.git" class="block-20 zoom-effect" style="background-image: url('images/css.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-CPU-steal-time.git">Node CPU steal time (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node CPU steal time (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-CPU-usage.git" class="block-20 zoom-effect" style="background-image: url('images/cu.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-CPU-usage.git">Node CPU usage (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node CPU usage (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-disk-io-queue-length.git" class="block-20 zoom-effect" style="background-image: url('images/dq.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-disk-io-queue-length.git">Node disk io queue length (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node disk io queue length (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-Disk-IO-usage.git" class="block-20 zoom-effect" style="background-image: url('images/du.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-Disk-IO-usage.git">Node Disk IO usage (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node Disk IO usage (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-disk-read-latency.git" class="block-20 zoom-effect" style="background-image: url('images/dl.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-disk-read-latency.git">Node disk read latency (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node disk read latency (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-Disk-usage.git" class="block-20 zoom-effect" style="background-image: url('images/duu.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-Disk-usage.git">Node Disk usage (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node Disk usage (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-disk-write-latency.git" class="block-20 zoom-effect" style="background-image: url('images/dw.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-disk-write-latency.git">Node disk write latency (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node disk write latency (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-disk-write-throughput.git" class="block-20 zoom-effect" style="background-image: url('images/dwt.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-disk-write-throughput.git">Node disk write throughput (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node disk write throughput (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-file-descriptor-usage.git" class="block-20 zoom-effect" style="background-image: url('images/desc.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-file-descriptor-usage.git">Node file descriptor usage (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node file descriptor usage (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-Memory-usage.git" class="block-20 zoom-effect" style="background-image: url('images/mu.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-Memory-usage.git">Node Memory usage (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node Memory usage (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-load-avg-in-1-minute.git" class="block-20 zoom-effect" style="background-image: url('images/avg.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-load-avg-in-1-minute.git">Node load avg in 1 minute (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node load avg in 1 minute (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-Network-bandwidth-usage.git" class="block-20 zoom-effect" style="background-image: url('images/nb.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-Network-bandwidth-usage.git">Node Network bandwidth usage (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node Network bandwidth usage (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-network-drop.git" class="block-20 zoom-effect" style="background-image: url('images/nd.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-network-drop.git">Node network drop (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node load avg in 1 minute (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-network-error.git" class="block-20 zoom-effect" style="background-image: url('images/ne.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-network-error.git">Node network error (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node network error (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-swap-usage.git" class="block-20 zoom-effect" style="background-image: url('images/swap.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-swap-usage.git">Node swap usage (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node swap usage (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-system-uptime.git" class="block-20 zoom-effect" style="background-image: url('images/upt.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-system-uptime.git">Node system uptime (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node system uptime (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-TCP-connections-count.git" class="block-20 zoom-effect" style="background-image: url('images/tcp.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-TCP-connections-count.git">Node TCP connections count (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node TCP connections count (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Node-zombie-processes.git" class="block-20 zoom-effect" style="background-image: url('images/zom.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Node-zombie-processes.git">Node zombie processes (Prometheus & linux & git & github)</a></h3>
+			  <p>Monitoring Node zombie processes (Prometheus)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/EC2-with-SG.git" class="block-20 zoom-effect" style="background-image: url('images/ec2.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/EC2-with-SG.git">EC2 with SG (AWS & Terraform & Linux & git & github)</a></h3>
+			  <p>Creating EC2 instance with Security group (AWS & Terraform)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/IAM-role-policy-for-s3---attach-it-to-EC2.git" class="block-20 zoom-effect" style="background-image: url('images/iam.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/IAM-role-policy-for-s3---attach-it-to-EC2.git">IAM role & policy for s3 - attach it to EC2(AWS & Terraform & Linux & git & github)</a></h3>
+			  <p>Creating IAM role & policy for s3 - attach it to EC2 (AWS & Terraform)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/S3-Versioning.git" class="block-20 zoom-effect" style="background-image: url('images/s3.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/S3-Versioning.git">S3 Versioning (AWS & Terraform & Linux & git & github)</a></h3>
+			  <p>Creating S3 Versioning (AWS & Terraform)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/VPC-with-Subnets-NAT-gateway.git" class="block-20 zoom-effect" style="background-image: url('images/VPC.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/VPC-with-Subnets-NAT-gateway.git">VPC with Subnets & NAT gateway (AWS & Terraform & Linux & git & github)</a></h3>
+			  <p>Creating VPC with Subnets & NAT gateway (AWS & Terraform)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/Git-calculator-app.git" class="block-20 zoom-effect" style="background-image: url('images/cal.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/Git-calculator-app.git">Git calculator app (Linux & git).........</a></h3>
+			  <p>Git calculator app (Linux & git)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/GitFlow.git" class="block-20 zoom-effect" style="background-image: url('images/gf.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/GitFlow.git">Gitflow (Linux & git)................................</a></h3>
+			  <p>Gitflow (Linux & git)</p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a href="https://github.com/AdhmAbdein/SupplyChainP-SQL-" class="block-20 zoom-effect" style="background-image: url('images/sc.png');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a href="https://github.com/AdhmAbdein/SupplyChainP-SQL-">Supply Chain using SQL</a></h3>
+			  <p>Analyzed Supply Chain data using advanced SQL queires.</p>
+			</div>
+		  </div>
+		</div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/AdhmAbdein/MusicStoreP-SQL-" class="block-20 zoom-effect" style="background-image: url('images/ms.png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/AdhmAbdein/MusicStoreP-SQL-">Music Store using SQL</a></h3>
+                <p>Analyzed Music Store data using advanced SQL queires.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="https://github.com/AdhmAbdein/CustomerSegmentationP-SQL-" class="block-20 zoom-effect" style="background-image: url('images/cs.png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/AdhmAbdein/CustomerSegmentationP-SQL-">Customer Segmentation using SQL</a></h3>
+                <p>Analyzed Customer Segmentation data using advanced SQL queires.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+	<br>
+		<!-- added justify-content-center to center align the last two projects -->
+		<div class="row d-flex justify-content-center">  
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/AdhmAbdein/AtmP-PYTHON-" class="block-20 zoom-effect" style="background-image: url('images/atm.png');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/AdhmAbdein/AtmP-PYTHON-">ATM using PYTHON</a></h3>
+				  <p>Analyzed ATM data using python analysis libraries.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/AdhmAbdein/HumanResourseP-PYTHON-" class="block-20 zoom-effect" style="background-image: url('images/hr.png');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/AdhmAbdein/HumanResourseP-PYTHON-">Human Resourse using PYHTON</a></h3>
+				  <p>Analyzed Human Resourse data using python analysis libraries.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/AdhmAbdein/StartUpP-PYTHON-" class="block-20 zoom-effect" style="background-image: url('images/su.png');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/AdhmAbdein/StartUpP-PYTHON-">Start Up using PYTHON</a></h3>
+				  <p>Analyzed Start Up data using python analysis libraries.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/AdhmAbdein/TransactionsP-PYTHON-" class="block-20 zoom-effect" style="background-image: url('images/tt.png');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/AdhmAbdein/TransactionsP-PYTHON-">Transactions using PYTHON</a></h3>
+				  <p>Analyzed Transactions data using python analysis libraries.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/AdhmAbdein/CallCenterP-POWER-BI-" class="block-20 zoom-effect" style="background-image: url('images/cc.png');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/AdhmAbdein/CallCenterP-POWER-BI-">Call Center using POWER BI</a></h3>
+				  <p>Analyzed Call Center data using Power BI(Dax - Power Query - visuals).</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/AdhmAbdein/GlobalSuperStoreP-POWER-BI-" class="block-20 zoom-effect" style="background-image: url('images/gs.png');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/AdhmAbdein/GlobalSuperStoreP-POWER-BI-">Global Super Store using POWER BI</a></h3>
+				  <p>Analyzed Global Super Store data using Power BI(Dax - Power Query - visuals).</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/AdhmAbdein/OlistP-POWER-BI-" class="block-20 zoom-effect" style="background-image: url('images/o.png');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/AdhmAbdein/OlistP-POWER-BI-">Olist E-Commerce using POWER BI</a></h3>
+				  <p>Analyzed E-Commerce data using Power BI(Dax - Power Query - visuals).</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/AdhmAbdein/RealEstateP-POWER-BI-" class="block-20 zoom-effect" style="background-image: url('images/re.png');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/AdhmAbdein/RealEstateP-POWER-BI-">Real Estate using POWER BI</a></h3>
+				  <p>Analyzed Real Estate data using Power BI(Dax - Power Query - visuals).</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/AdhmAbdein/OrderSalesP-EXCEL-" class="block-20 zoom-effect" style="background-image: url('images/os.png');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/AdhmAbdein/OrderSalesP-EXCEL-">Ordere Sales using EXCEL</a></h3>
+				  <p>Analyzed Sales data using Excel........................................</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/AdhmAbdein/SalesP-EXCEL-" class="block-20 zoom-effect" style="background-image: url('images/s.png');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/AdhmAbdein/SalesP-EXCEL-">Sales using EXCEL</a></h3>
+				  <p>Analyzed Sales data using Excel.......................................</p>
+				</div>
+			  </div>
+			</div>
+		 </div>
+	  </div>
+    </section>
+
+	<!--<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+      <div class="container">
+		<div class="row d-md-flex align-items-center">
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="20">0</strong>
+                <span>Achievements</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="30">0</strong>
+                <span>Projects</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="1000">0</strong>
+                <span>Mentored Students</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="500">0</strong>
+                <span>Cups of coffee</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	
+	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+						<h2>More projects on<span> Github  </span> </h2>
+						<div class="heading"> <h4> I love to solve business problems &amp; uncover hidden data stories </h4>
+						<br>
+						<p><a href="https://github.com/AdhmAbdein?tab=repositories" class="btn btn-primary py-3 px-5">GitHub</a></p>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</div>
+	</section>
+
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Gliwice, poland</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://+48 516 761 445">+48 516 761 445</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="adhmkhlid5@gmail.com">adhmkhlid5@gmail.com</a></p>
+	          </div>
+          </div>
+		  <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+			<div class="align-self-stretch box p-4 text-center">
+			  <div class="icon d-flex align-items-center justify-content-center">
+				<span class="icon-linkedin"></span> 
+			  </div>
+			  <h3 class="mb-4">LinkedIn</h3>
+			  <p><a href="https://www.linkedin.com/in/adham-abdein-b758502b7/" target="_blank">Adham Abdein</a></p>
+			</div>
+		  </div>
+          <!--<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Download Resume</h3>
+	            <p><a href="#">resumelink</a></p>
+	          </div>-->
+          </div>
+
+		  <div class="container">
+			<br>
+			<br>
+			<!--<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>Have a<span> Question?  </span> <a href="https://forms.gle/uLaTShUKXraAvHJ77" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+				</div>
+			</div>-->
+				
+			   <!--<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <li class="ftco-animate"><a href="https://www.youtube.com/@RishabhMishraOfficial"><span class="icon-youtube"></span></a></li>
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/rishabhnmishra/"><span class="icon-linkedin"></span></a></li>  
+					  <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-twitter"></span></a></li>
+					  <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-facebook"></span></a></li>
+				      <li class="ftco-animate"><a href="https://www.instagram.com/rishabhnmishra/"><span class="icon-instagram"></span></a></li>
+					</ul>
+				<br>-->
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made <i class="" aria-hidden="true"></i> by <a href="###https://colorlib.com" target="_blank">ADHAM</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
